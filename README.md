@@ -32,7 +32,7 @@ print(whisper_use.detect_text_from_mel('audio1.m4a'))
 这个库会自动下载模型到你运行这个代码的位置的models文件夹中（没有这个文件夹它也会自动创建一个），但是大家可能会遇到没有魔法（翻不了墙，下半天结果网络错误），位置存储不够等问题，下面是对应的解决方法：
 
 下面是这个模型的链接，你需要自己去把这个文件下载下来并解压到对应的地址，然后使用函数的时候增加一个参数（下面是个例子）：
-https://pan.baidu.com/s/1TMbs6OGJC4daS7tqqFlLAw?pwd=ggnm
+https://pan.baidu.com/s/1Q1jaVxvxbN0u4CJY4uJ_lg?pwd=2wgr
 
 ```
 print(whisper_use.detect_text('audio1.m4a', download_root='./my_model'))
